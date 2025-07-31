@@ -1,13 +1,5 @@
 # DevOps Tasks
 
-## Prerequisites
-
-- Python 3.7+
-- GitHub account (for accessing public repositories)
-- Internet connection (for API access and downloads)
-- Install required Python libraries if any using `pip install -r requirements.txt` (if such a file exists)
-
----
 
 ## 📦 How to Use This Repository
 
@@ -26,6 +18,16 @@ git clone https://github.com/ALW-N/BXP_assignment.git
 
 cd BXP_assignment
 ```
+
+## Prerequisites
+
+- Python 3.6 or above should be installed.
+- Internet connection is required to fetch GitHub data.
+- Required Python packages:
+  ```bash
+  pip install requests
+---
+
 # Task #B1
 
 ---
@@ -46,7 +48,7 @@ python t1_step1.py
 
 ### 2. Modify the Bash/Python Script to upload the downloaded zips made in Step 1.
 
-**Navigate to Task-B1 folder:**
+
 ```bash
 python t1_step2.py
 ```
