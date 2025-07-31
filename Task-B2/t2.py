@@ -4,7 +4,7 @@ import sys
 import time
 import csv
 
-# Constants
+
 REPO = "tensorflow/tensorflow"
 START_DATE = datetime.datetime(2023, 1, 1)
 CSV_FILE = "weekly_loc_stats.csv"
